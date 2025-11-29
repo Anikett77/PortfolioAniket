@@ -21,6 +21,8 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const category = {
 	1: "Web Development",
+	// 2: "AI & Machine Learning",
+	// 9: "Other",
 };
 
 export default function Page() {
@@ -42,9 +44,9 @@ export default function Page() {
 			fp.destroy("all");
 		};
 	}, []);
-
 	return (
-		<main className="overflow-hidden">
+		<>
+			<main className="overflow-hidden">
 				<FixedButon href="/#projects">
 					<FontAwesomeIcon icon={faChevronLeft} className="text-black pr-10" />
 				</FixedButon>
@@ -189,7 +191,7 @@ export default function Page() {
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
 							AutoXplore — Premium Car Rental & Buying Platform
-A full-stack MERN-based car rental and buying website designed to provide users with a seamless, interactive, and intelligent vehicle booking experience. Built with React.js, Node.js, Express.js, MongoDB, and Tailwind CSS, the platform allows users to browse, rent, and buy premium cars with real-time availability updates and dynamic UI interactions.
+A full-stack MERN-based car rental website designed to provide users with a seamless, interactive, and intelligent vehicle booking experience. Built with React.js, Node.js, Express.js, MongoDB, and Tailwind CSS, the platform allows users to browse, rent, and buy premium cars with real-time availability updates and dynamic UI interactions.
 
 The project includes secure authentication (JWT), dynamic car listings powered by MongoDB, and an admin dashboard for managing cars, users, and bookings. It also features advanced search filters, responsive design, and integrated payment workflow for a complete end-to-end user experience.
 						</p>{" "}
