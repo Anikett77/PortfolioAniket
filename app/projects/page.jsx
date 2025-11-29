@@ -29,24 +29,24 @@ export default function Page() {
 	const projects = Projects.Projects.filter((item) => item.show === true);
 
 	useEffect(() => {
+    if (typeof window === "undefined") return;
+
     window.scrollTo(0, 0);
 
-    // dynamically import fullpage.js (fixes window error)
-    import("fullpage.js").then((fullpage) => {
-        const fp = new fullpage.default("#fullpage", {
+    import("fullpage.js").then((fp) => {
+        const fullpage = new fp.default("#fullpage", {
             autoScrolling: true,
             navigation: true,
             licenseKey: null,
         });
 
-        // Cleanup
         return () => {
-            fp.destroy("all");
+            fullpage.destroy("all");
         };
     });
 }, []);
 	return (
-		<>
+		<div id="fullpage">
 			<main className="overflow-hidden">
 				<FixedButon href="/#projects">
 					<FontAwesomeIcon icon={faChevronLeft} className="text-black pr-10" />
@@ -286,6 +286,6 @@ The project includes secure authentication (JWT), dynamic car listings powered b
 					</Button>
 				</motion.div>
 			</main>
-		</>
+			</div>
 	);
 }
