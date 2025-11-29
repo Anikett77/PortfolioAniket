@@ -41,8 +41,11 @@ importers:
       framer-motion:
         specifier: ^12.5.0
         version: 12.5.0(@emotion/is-prop-valid@0.8.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      fullpage.js:
+        specifier: ^3.1.2
+        version: 3.1.2
       next:
-        specifier: 15.2.3
+        specifier: ^15.2.3
         version: 15.2.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       nprogress:
         specifier: ^0.2.0
@@ -54,10 +57,10 @@ importers:
         specifier: ^15.8.1
         version: 15.8.1
       react:
-        specifier: 19.0.0
+        specifier: ^19.0.0
         version: 19.0.0
       react-dom:
-        specifier: 19.0.0
+        specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
       sharp:
         specifier: ^0.33.5
@@ -1069,6 +1072,9 @@ packages:
         optional: true
       react-dom:
         optional: true
+
+  fullpage.js@3.1.2:
+    resolution: {integrity: sha512-hv7z6xhbg2StTp1UDq2hi+0oHjhT7cW3zCL3qCIJ3ood5pN0FRBQ2YKIOUobhsp4ATSQlr6sZ2TOcS+Ha+T7Cg==}
 
   fullpage.js@4.0.34:
     resolution: {integrity: sha512-jLZrqhK9PDRdpN82UwbNLYaINjZTGbBahV6FASP4b1yXaS8U3G+ty2nZ+XIIfjN08Ej0UgvSfPnmWDR7CWxwNw==}
@@ -2966,6 +2972,8 @@ snapshots:
       '@emotion/is-prop-valid': 0.8.8
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
+
+  fullpage.js@3.1.2: {}
 
   fullpage.js@4.0.34: {}
 
