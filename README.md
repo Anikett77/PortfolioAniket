@@ -1,116 +1,65 @@
-# Alvalens Porto 2
+# Aniket Portfolio
 
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=aleph-discord-bot.visitor-badge)
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=aniket-portfolio.visitor-badge)
 
-This is my debut project utilizing Next.js, a portfolio website featuring four primary sections: Home, About, Projects, and Contact. The site is brought to life with animations powered by Framer Motion, enhanced page transitions with Fullpage.js, and styled using elements of Tailwind CSS. This project also read list of project data from a JSON file. It serves as a showcase of my web development skills and represents my initial foray into web development with Next.js.
+This is my portfolio website built with Next.js, featuring four primary sections: Home, About, Projects, and Contact. The site uses Framer Motion for animations, Fullpage.js for smooth transitions, and Tailwind CSS for styling. Project details are dynamically loaded from a JSON file.
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+This website represents my first major step into modern web development with Next.js and showcases my skills, creativity, and frontend development knowledge.
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## Features
 
-* **Smooth Animation:** Smooth page scroll and scroll trigger animation.
-* **Smooth Page Transition:** Smooth page transition with prefetching feature of next js.
-* **Dynamic Data:** Read the project data from JSON file instead of directly implemented the data.
-* **Intelliticks chat widget:** Chat with owner of the web realtime.
-* **Spotify realtime widget:** Show what song youre playing in this web.
+- Smooth Animations: Clean scroll animations powered by Framer Motion.
+- Smooth Page Transitions: Enhanced transitions using Fullpage.js and Next.js prefetching.
+- Dynamic Data: Projects are fetched from a JSON file instead of being hardcoded.
+- Intelliticks Chat Widget: Allows visitors to chat with me in real-time.
+- Spotify Realtime Widget: Displays what I’m currently listening to.
 
-## Installation
 
-1. Ensure you have [pnpm](https://pnpm.io/) installed. If not, you can install it using:
 
-   ```shell
-   npm install -g pnpm
-   ```
-2. Clone the repository:
-
-   ```shell
-   git clone https://github.com/Alvalens/Alvalens-porto-2-nextJs.git
-   ```
-3. Navigate to the project directory:
-
-   ```shell
-   cd Alvalens-porto-2-nextJs
-   ```
-4. Install dependencies:
-
-   ```
-   pnpm install
-   ```
-5. Start the development server
-
-   ```shell
-   pnpm next dev
-   ```
-6. Update the Intelliticks chat widget script in components/Chat.jsx, with your own
-
-   ```javascript
-    "use client"
-    import { useEffect } from "react";
-
-    // Component for Intelliticks chat widget
-    const Chat = () => {
-    	useEffect(() => {
-    		// Replace the Intelliticks script here
-
-    	}, []);
-
-    	return null;
-    };
-
-    export default Chat;
-   ```
-7. Set env.local by copying env.example and fill the variable
-
-   ```
-   NEXT_PUBLIC_SPOTIFY_CLIENT_ID=
-   NEXT_PUBLIC_SPOTIFY_CLIENT_SECRET=
-   NEXT_PUBLIC_SPOTIFY_REFRESH_TOKEN=
-   ```
-
-   for further reference on how to setup spotify api you can check this [link ](https://leerob.io/blog/spotify-api-nextjs "leerob blog")
+Follow this guide for Spotify API setup: https://leerob.io/blog/spotify-api-nextjs
 
 ## Usage
 
-There are four main sections and two subpages in this portfolio website:
+The portfolio includes four main sections and two subpages:
 
 ### Home
-
-The home page serves as an introduction to the portfolio. It provides an overview of your web development skills and passion for the field. Users can explore other sections from here.
+A clean introduction to who I am and what I do, with smooth animations and transitions.
 
 ### About
-
-The about page offers more detailed information about you as a web developer. It might include your background, education, skills, and interests in the field of web development.
+More details about my background, skills, interests, and journey in web development.
 
 ### Projects
-
-The projects section showcases your work as a web developer. Users can explore the projects you've worked on, and you can provide details such as project descriptions, technologies used, and images.
+A showcase of my work with descriptions, tech stacks, and preview images.
 
 ### Contact
-
-The contact page allows users to get in touch with you. You can provide contact information or a contact form for inquiries.
+A place where visitors can connect with me—either through direct info or a form.
 
 ### Subpages
+- Project Archive: Displays all projects that aren’t shown on the main Projects page.
+- Project Details: Clicking a project opens its dedicated detail page.
 
-- **Project archive:** list all of your project that dont needed to display at main project page.
-- Project details: See the main project detail by clicking the project image.
+## Intelliticks Chat Widget
 
-Feel free to customize and expand upon these sections and subpages to suit your needs and showcase your unique skills and projects.
-
-### Intelliticks chat widget
-
-Enjoy chat realtime with ease using Intelliticks (https://app.intelliticks.com/)
+Real-time chat support integrated using Intelliticks  
+https://app.intelliticks.com/
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
+Contributions are always welcome!  
+Feel free to open issues or submit pull requests if you’d like to help improve the project.
 
-## Reference (inspiration)
+## Inspiration Sources
 
 - https://www.frans.my.id/
 - https://kuon-yagi-portfolio.netlify.app/
 
 ## License
 
-This project is licensed under the GPL-3.0 License see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL-3.0 License.  
+See the LICENSE file for more information.
 
-Copyright (C) 2025 Alvalen Shafelbilyunazra
+© 2025 Aniket Chaturvedi
