@@ -1,0 +1,160 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "AutoXplore",
+      "desc": [
+        "AutoXplore is a premium car rental and buying platform created to provide users with a seamless and modern vehicle booking experience. The website is built using React.js, Node.js, Express.js, MongoDB, and Tailwind CSS, ensuring fast performance, scalability, and a visually engaging UI.",
+        "The platform offers a variety of features such as a fully responsive interface for browsing available cars, detailed car information with pricing and specifications, and secure authentication using JWT for users and admins. Users can explore different car categories, view detailed information, and instantly book or purchase cars. The admin panel allows efficient management of cars, bookings, and user data with real-time updates stored in MongoDB.",
+        "AutoXplore also includes interactive animations powered by Framer Motion, smooth navigation with React Router, and optimized image handling using Cloudinary. The project focuses on providing a premium user experience through dynamic car listings, advanced search and filtering options, and secure payment integration for future scalability."
+      ],
+      "year": "2025",
+      "preview": "https://www.intervyou.me",
+      "code": "",
+      "thumbnail": "/image/projects/web/intervyou/AutoXplore-thumbnail.png",
+      "images": [
+        "/image/projects/web/intervyou/Autoxplore-1.png",
+        "/image/projects/web/intervyou/Autoxplore-2.png",
+        "/image/projects/web/intervyou/Autoxplore-3.png",
+        "/image/projects/web/intervyou/Autoxplore-4.png",
+        "/image/projects/web/intervyou/Autoxplore-5.png",
+        "/image/projects/web/intervyou/Autoxplore-6.png",
+        "/image/projects/web/intervyou/Autoxplore-7.png"
+      ],
+      "tech": [
+        "React.js",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "Tailwind CSS",
+        "Framer Motion"
+      ],
+      "slug": "AutoXplore",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "Sunstone Studio (Animated Website)",
+      "desc": [
+        "An interactive and visually appealing animated website created for a fictional design studio. Focused on smooth transitions, scroll-based animations, and a highly modern user interface using GSAP and Framer Motion.",
+        "The project demonstrates advanced animation techniques and responsive layouts, delivering an engaging user experience across all devices."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/web/Sunstone/Sunstone-initial.png",
+      "images": [
+        "/image/projects/web/Sunstone/Sunstone-1.png",
+        "/image/projects/web/Sunstone/Sunstone-2.png",
+        "/image/projects/web/Sunstone/Sunstone-3.png",
+        "/image/projects/web/Sunstone/Sunstone-4.png",
+        "/image/projects/web/Sunstone/Sunstone-5.png"
+      ],
+      "tech": [
+        "ReactJS",
+        "Framer Motion",
+        "GSAP",
+        "TailwindCSS",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "slug": "sunstone-studio",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "Spotify Clone",
+      "desc": [
+        "A fully functional Spotify-inspired music player built from scratch using HTML, CSS, and JavaScript. The app allows users to play, pause, navigate songs, control volume, and explore albums dynamically loaded from JSON files.",
+        "It features responsive design, custom UI, folder-based album structure, and smooth media controls, delivering an authentic music streaming experience."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/web/Spotify/Spotify-view.png",
+      "images": [
+        "/image/projects/web/Spotify/Spotify-2.png",
+        "/image/projects/web/Spotify/Spotify-1.png"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "slug": "spotify-clone",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "Netflix Clone",
+      "desc": [
+        "A responsive Netflix homepage clone built using HTML and CSS, designed to replicate the modern look and feel of the Netflix platform.",
+        "This project focuses on layout design, grid-based structure, and responsive alignment techniques, showcasing front-end styling and UI precision."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/web/Netflix/Netflix-interface.png",
+      "images": [
+        "/image/projects/web/Netflix/Netflix-1.png",
+        "/image/projects/web/Netflix/Netflix-2.png",
+        "/image/projects/web/Netflix/Netflix-3.png",
+        "/image/projects/web/Netflix/Netflix-4.png"
+      ],
+      "tech": [
+        "HTML",
+        "CSS"
+      ],
+      "slug": "netflix-clone",
+      "category": [
+        1
+      ]
+    },
+    {
+      "show": true,
+      "title": "Campus-Unite (Hackathon Project)",
+      "desc": [
+        "A team project developed during Version Beta 8.0 Hackathon at MANIT, aimed at improving campus collaboration and event management. The web app integrates Google Calendar API and Google Maps API to schedule, locate, and manage campus activities seamlessly.",
+        "Built using the MERN stack, the project focuses on real-time updates, event management, and AI-assisted features to enhance student productivity."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/web/Campus/Campus-thumbnail.png",
+      "images": [
+        "/image/projects/web/Campus/Campus-1.png",
+        "/image/projects/web/Campus/Campus-2.png",
+        "/image/projects/web/Campus/Campus-3.png",
+        "/image/projects/web/Campus/Campus-4.png",
+        "/image/projects/web/Campus/Campus-5.png",
+        "/image/projects/web/Campus/Campus-6.png",
+        "/image/projects/web/Campus/Campus-7.png"
+      ],
+      "tech": [
+        "MongoDB",
+        "Express.js",
+        "ReactJS",
+        "Node.js",
+        "TailwindCSS",
+        "Google Calendar API",
+        "Google Maps API",
+        "AI Integration"
+      ],
+      "slug": "campus-unite",
+      "category": [
+        1
+      ]
+    }
+  ]
+}
