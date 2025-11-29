@@ -4,7 +4,6 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Button from "@/components/Button";
 import Image from "next/image";
-import fullpage from "fullpage.js";
 
 // images
 import Intervyou1 from "@/public/image/projects/web/intervyou/Autoxplore-1.png";
@@ -30,20 +29,22 @@ export default function Page() {
 	const projects = Projects.Projects.filter((item) => item.show === true);
 
 	useEffect(() => {
-		window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 
-		// initialize fullpage.js inside useEffect
-		const fp = new fullpage('#fullpage', {
-			autoScrolling: true,
-			navigation: true,
-			licenseKey: null, // REQUIRED for v3 (free)
-		});
+    // dynamically import fullpage.js (fixes window error)
+    import("fullpage.js").then((fullpage) => {
+        const fp = new fullpage.default("#fullpage", {
+            autoScrolling: true,
+            navigation: true,
+            licenseKey: null,
+        });
 
-		return () => {
-			// destroy on unmount
-			fp.destroy("all");
-		};
-	}, []);
+        // Cleanup
+        return () => {
+            fp.destroy("all");
+        };
+    });
+}, []);
 	return (
 		<>
 			<main className="overflow-hidden">
