@@ -1,12 +1,11 @@
 {
-  "name": "alvalen-portfolio-website",
+  "name": "Aniket-portfolio-website",
   "author": {
-    "name": "Alvalen Shafelbilyunazra",
-    "email": "alvalen.shafel04@gmail.com",
-    "url": "https://alvalens.my.id"
+    "name": "Aniket Chaturvedi",
+    "email": "aniketchaturvedi83@gmail.com",
+    "url": ""
   },
   "license": "GPL-3.0",
-  "copyright": "Copyright (C) 2025 Alvalen Shafelbilyunazra",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -22,13 +21,12 @@
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "@fullpage/react-fullpage": "^0.1.48",
+    "@fullpage/react-fullpage": "^0.1.49",
     "@tailwindcss/postcss": "^4.0.14",
     "@vercel/analytics": "^1.5.0",
     "eslint": "9.22.0",
     "eslint-config-next": "15.2.3",
     "framer-motion": "^12.5.0",
-    "fullpage.js": "^3.1.2",
     "next": "^15.2.3",
     "nprogress": "^0.2.0",
     "postcss": "^8.5.3",

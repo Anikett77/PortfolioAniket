@@ -32,18 +32,7 @@ export default function Page() {
     if (typeof window === "undefined") return;
 
     window.scrollTo(0, 0);
-
-    import("fullpage.js").then((fp) => {
-        const fullpage = new fp.default("#fullpage", {
-            autoScrolling: true,
-            navigation: true,
-            licenseKey: null,
-        });
-
-        return () => {
-            fullpage.destroy("all");
-        };
-    });
+	
 }, []);
 	return (
 		<div id="fullpage">

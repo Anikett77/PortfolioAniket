@@ -21,13 +21,12 @@ import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const MyPage = () => {
-	const fullpageOptions = {
-		anchors: ["home", "about", "projects", "contact"],
-		scrollingSpeed: 1000,
-		licenseKey: "gplv3-license",
-		menu: "#sidebar",
-		lockAnchors: false,
-	};
+  const fullpageOptions = {
+    anchors: ["home", "about", "projects", "contact"],
+    scrollingSpeed: 1000,
+    menu: "#sidebar",
+    lockAnchors: false,
+  };
 
 	return (
 		<div>
@@ -95,7 +94,7 @@ const MyPage = () => {
 										}}>
 										<Button variation="primary">
 											<Link
-												href="https://drive.google.com/file/d/1pZqjzgbiF1OKkDDFJKoEuPNUb2sEd6Y_/view?usp=drive_link"
+												href="https://drive.google.com/file/d/1ZQynWNjwHPv9IWfI_ORWWsUOK5NEPFtO/view?usp=drive_link"
 												target="_blank"
 												rel="noopener noreferrer"
 												download>
@@ -359,7 +358,7 @@ const MyPage = () => {
 											<FontAwesomeIcon icon={faGithub} className="text-3xl" />
 										</motion.a>
 										<motion.a
-											href="https://www.instagram.com/anikxt_chaturvxdi_/"
+											href="https://www.instagram.com/anikxt_chaturvxdi_"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -375,7 +374,7 @@ const MyPage = () => {
 											/>
 										</motion.a>
 										<motion.a
-											href="https://www.linkedin.com/in/aniket77/"
+											href="https://www.linkedin.com/in/anikett77/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"

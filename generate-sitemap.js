@@ -1,25 +1,36 @@
 // sitemap-generator.js
 const { SitemapStream, streamToPromise } = require("sitemap");
-const { createGzip } = require("zlib");
 const fs = require("fs");
 
 async function generateSitemap() {
-	const sitemap = new SitemapStream({
-		hostname: "https://alvalens.my.id/",
-	});
+  const sitemap = new SitemapStream({
+    hostname: "https://portfolio-anikett77.vercel.app/", // CHANGE THIS
+  });
 
-	// Add URLs to your sitemap
-	sitemap.write({ url: "/", changefreq: "daily", priority: 1.0 });
-	sitemap.write({ url: "/about", changefreq: "daily", priority: 0.9 });
-	sitemap.write({ url: "/projects", changefreq: "daily", priority: 0.9 });
-	sitemap.write({ url: "/projects/archive", changefreq: "daily", priority: 0.7 });
+  sitemap.write({ url: "/", changefreq: "weekly", priority: 1.0 });
+  sitemap.write({ url: "/about", changefreq: "monthly", priority: 0.8 });
+  sitemap.write({ url: "/projects", changefreq: "weekly", priority: 0.9 });
+  sitemap.write({ url: "/contact", changefreq: "yearly", priority: 0.6 });
 
-	sitemap.end();
+  // OPTIONAL: your real projects only
+  const projects = [
+    "autoxplore",
+    "netflix-clone",
+    "music-player",
+  ];
 
-	const sitemapXML = (await streamToPromise(sitemap)).toString();
-	const gzippedSitemap = createGzip();
+  projects.forEach((slug) => {
+    sitemap.write({
+      url: `/projects/${slug}`,
+      changefreq: "monthly",
+      priority: 0.7,
+    });
+  });
 
-	fs.writeFileSync("./public/sitemap.xml.gz", sitemapXML);
+  sitemap.end();
+
+  const sitemapXML = await streamToPromise(sitemap);
+  fs.writeFileSync("./public/sitemap.xml", sitemapXML.toString());
 }
 
 generateSitemap();
