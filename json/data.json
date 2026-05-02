@@ -1,6 +1,152 @@
 {
   "Projects": [
     {
+  "show": true,
+  "title": "Uplyft AI",
+  "desc": [
+    "Uplyft AI is a full-stack AI-powered career platform built to help students, freshers, and career switchers go from resume upload to interview-ready — automatically. Built with Next.js 14, MongoDB, Tailwind CSS, and GPT-4o mini via OpenRouter, the platform delivers a complete career preparation loop in one place.",
+    "The platform features a Resume Analyzer that parses PDF and DOCX files, generates an ATS score out of 100, and provides keyword gap analysis, format review, role match percentage, and prioritized improvement suggestions. A Skill Gap Analysis module compares resume skills against target role requirements with color-coded tags for present, missing, and partial skills. The AI Mock Interview system conducts 7-question sessions across Behavioral, Technical, and Case Study types — each answer is scored out of 10 with strengths, improvements, a model answer, and an actionable tip, followed by a full session report with readiness score.",
+    "Additional features include a Career Roadmap generator that builds a personalized 5-phase learning path from the user's skill gaps, a Learning Tracker that maps missing skills to real courses from platforms like Coursera, Udemy, and DeepLearning.AI, and a Portfolio Analyzer that pulls live GitHub stats including repositories, stars, language breakdown, and code quality signals via the GitHub REST API. The platform uses JWT-based authentication with per-user data isolation in localStorage, and all resume analysis results are persisted to MongoDB for cross-session access."
+  ],
+  "year": "2026",
+  "preview": "https://uplyft-ai.vercel.app",
+  "code": "https://github.com/Anikett77/uplyft-ai",
+  "thumbnail": "/image/projects/web/uplyft/uplyft-1.png",
+  "images": [
+    "/image/projects/web/uplyft/uplyft-2.png",
+    "/image/projects/web/uplyft/uplyft-3.png",
+    "/image/projects/web/uplyft/uplyft-4.png",
+    "/image/projects/web/uplyft/uplyft-5.png",
+    "/image/projects/web/uplyft/uplyft-6.png",
+    "/image/projects/web/uplyft/uplyft-7.png",
+    "/image/projects/web/uplyft/uplyft-8.png",
+    "/image/projects/web/uplyft/uplyft-9.png",
+    "/image/projects/web/uplyft/uplyft-10.png",
+    "/image/projects/web/uplyft/uplyft-11.png"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "MongoDB",
+    "Mongoose",
+    "Node.js",
+    "OpenRouter API",
+    "GPT-4o mini",
+    "GitHub REST API",
+    "JWT"
+  ],
+  "slug": "uplyft-ai",
+  "category": [1]
+},
+{
+  "show": true,
+  "title": "FinDash",
+  "desc": [
+    "FinDash is a full-stack finance data processing and analytics dashboard built to help teams manage transactions securely with strict role-based access control. Built using Next.js 14, MongoDB, Tailwind CSS, and JWT authentication, the platform ensures that different users have controlled access to financial data and operations.",
+    
+    "The platform features a robust authentication system where JWT tokens are stored in HttpOnly cookies, ensuring security against XSS attacks. A Role-Based Access Control (RBAC) system defines permissions for Viewer, Analyst, and Admin roles — with access enforced at both the frontend and backend API level. Financial Records Management allows users to perform CRUD operations on transactions, including filtering, searching, and sorting by date, type, and category.",
+    
+    "The dashboard provides real-time analytics computed directly from database records, including total income, expenses, net balance, category-wise breakdown, and monthly comparisons. Interactive charts powered by Recharts visualize financial trends through bar and pie charts. An Admin-only User Management module enables role updates and secure deletion of users, with safeguards preventing self-modification. The system is structured using Next.js API routes with a modular architecture and uses Mongoose for schema modeling and MongoDB integration."
+  ],
+  "year": "2026",
+  "preview": "https://findash-finance.vercel.app/",
+  "code": "https://github.com/Anikett77/FinDash",
+  "thumbnail": "/image/projects/web/findash/findash.png",
+  "images": [
+    "/image/projects/web/findash/findash-1.png",
+    "/image/projects/web/findash/findash-2.png",
+    "/image/projects/web/findash/findash-3.png",
+    "/image/projects/web/findash/findash-4.png",
+    "/image/projects/web/findash/findash-5.png",
+    "/image/projects/web/findash/findash-6.png",
+    "/image/projects/web/findash/findash-7.png",
+    "/image/projects/web/findash/findash-8.png",
+    "/image/projects/web/findash/findash-9.png"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "MongoDB",
+    "Mongoose",
+    "Node.js",
+    "JWT",
+    "Recharts"
+  ],
+  "slug": "findash",
+  "category": [1]
+},
+{
+  "show": true,
+  "title": "TEDx OIST Website",
+  "desc": [
+    "TEDx OIST Website is a modern, responsive event platform built to showcase the TEDx OIST event, its speakers, schedule, and overall experience. Designed with a clean UI and smooth interactions, the platform delivers an engaging digital presence aligned with TEDx branding and storytelling.",
+    
+    "The website features dynamic sections including speaker profiles, event schedule, about TEDx, and registration call-to-actions. Each speaker section highlights key details, images, and talk themes, while the schedule module provides a structured timeline of the event. The UI is fully responsive, ensuring seamless performance across desktop and mobile devices.",
+    
+    "Built using modern frontend technologies, the platform focuses on performance, accessibility, and user experience. Smooth animations, optimized assets, and structured component-based design ensure fast loading and maintainability. The project reflects strong frontend development skills with attention to design consistency, responsiveness, and real-world event deployment."
+  ],
+  "year": "2026",
+  "preview": "https://www.tedxoist.in/",
+  "code": "https://github.com/Anikett77/TEDx-OIST",
+  "thumbnail": "/image/projects/web/tedx/tedx.gif",
+  "images": [
+    "/image/projects/web/tedx/tedx-5.png",
+    "/image/projects/web/tedx/tedx-4.png",
+    "/image/projects/web/tedx/tedx-3.png",
+    "/image/projects/web/tedx/tedx-2.png",
+    "/image/projects/web/tedx/tedx-1.png"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "JavaScript",
+    "Tailwind CSS"
+  ],
+  "slug": "tedx-oist",
+  "category": [1]
+},
+{
+  "show": true,
+  "title": "Navix AI",
+  "desc": [
+    "Navix AI is an AI-powered trip planner designed to generate personalized travel itineraries based on user preferences such as destination, budget, duration, and interests. Built with Next.js 14 and modern web technologies, the platform simplifies travel planning by turning complex decisions into a seamless, automated experience.",
+    
+    "The platform uses AI to generate structured day-wise itineraries, including recommended places, activities, and travel suggestions. Users can input trip details and instantly receive optimized plans tailored to their needs. Authentication is handled using NextAuth.js with support for Google OAuth and email/password login, ensuring secure and personalized access to saved trips.",
+    
+    "Navix AI features a clean and interactive UI built with Tailwind CSS, focusing on usability and smooth user flow. It integrates MongoDB for storing user data and trip history, enabling users to revisit and manage their plans. The system is designed with scalability in mind, making it suitable for expanding into a full travel ecosystem with booking integrations, maps, and real-time recommendations."
+  ],
+  "year": "2026",
+  "preview": "[Add deployed URL here]",
+  "code": "https://github.com/Anikett77/Navix-AI",
+  "thumbnail": "/image/projects/web/navix/Navix.gif",
+  "images": [
+    "/image/projects/web/navix/navix-1.png",
+    "/image/projects/web/navix/navix-2.png",
+    "/image/projects/web/navix/navix-3.png",
+    "/image/projects/web/navix/navix-4.png",
+    "/image/projects/web/navix/navix-5.png",
+    "/image/projects/web/navix/navix-6.png"
+  ],
+  "tech": [
+    "Next.js",
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "MongoDB",
+    "Mongoose",
+    "NextAuth.js",
+    "OpenAI API / AI Integration",
+    "Google OAuth",
+    "JWT"
+  ],
+  "slug": "navix-ai",
+  "category": [1]
+},
+    {
       "show": true,
       "title": "AutoXplore",
       "desc": [
@@ -9,7 +155,7 @@
         "AutoXplore also includes interactive animations powered by Framer Motion, smooth navigation with React Router, and optimized image handling using Cloudinary. The project focuses on providing a premium user experience through dynamic car listings, advanced search and filtering options, and secure payment integration for future scalability."
       ],
       "year": "2025",
-      "preview": "https://github.com/Anikett77/AutoXplore",
+      "preview": "https://autoxplore.vercel.app/",
       "code": "https://github.com/Anikett77/AutoXplore",
       "thumbnail": "/image/projects/web/intervyou/AutoXplore-thumbnail.png",
       "images": [

@@ -94,7 +94,7 @@ const MyPage = () => {
 										}}>
 										<Button variation="primary">
 											<Link
-												href="https://drive.google.com/file/d/1ZQynWNjwHPv9IWfI_ORWWsUOK5NEPFtO/view?usp=drive_link"
+												href="https://drive.google.com/file/d/1G4tZYpt-7pzwL_fnEZXI8AwvVrb_R62n/view?usp=sharing"
 												target="_blank"
 												rel="noopener noreferrer"
 												download>
