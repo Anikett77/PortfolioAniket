@@ -43,7 +43,7 @@ const MyPage = () => {
 										type: "spring",
 									}}>
 									<div className="block md:hidden col-span-1 mx-auto my-10">
-										<div className="bg-slate-500 rounded-full h-60 w-60 grayscale hover:grayscale-0 transition-all ease duration-300">
+										<div tabIndex={0} className="bg-slate-500 rounded-full h-60 w-60 grayscale focus:grayscale-0 hover:grayscale-0 transition-all ease duration-300">
 											<Image
 												src={Me}
 												width={500}
@@ -131,7 +131,8 @@ const MyPage = () => {
 							<div className="relative md:h-screen w-screen gap-4 flex justify-center items-center flex-col overflow-hidden">
 								<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
 									<motion.div
-										className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0"
+									tabIndex={0}
+										className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale focus:grayscale-0 hover:grayscale-0"
 										initial={{
 											x: 300,
 											opacity: 0,
@@ -197,7 +198,8 @@ const MyPage = () => {
 							<div className="relative md:h-screen w-screen gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
 								<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
 									<motion.div
-										className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 "
+									tabIndex={0}
+										className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale focus:grayscale-0 hover:grayscale-0 "
 										initial={{
 											x: 300,
 											opacity: 0,
@@ -267,7 +269,8 @@ const MyPage = () => {
 							<div className="relative md:h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
 								<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
 									<motion.div
-										className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0"
+									tabIndex={0}
+										className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale focus:grayscale-0 hover:grayscale-0"
 										initial={{
 											x: 300,
 											opacity: 0,

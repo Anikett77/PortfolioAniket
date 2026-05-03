@@ -43,10 +43,11 @@ export default function Page() {
 				<div className="relative h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
 					<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
 						<motion.div
+						tabIndex={0}
 							initial={{ scale: 1 }}
 							animate={{ scale: 1.6 }}
 							transition={{ duration: 1, ease: "circOut" }}
-							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
+							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale focus:grayscale-0 hover:grayscale-0 ">
 							<Image
 								src={ProjectAll}
 								alt="Aniket"
@@ -92,7 +93,7 @@ export default function Page() {
 				<div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
 					<div className="flex justify-center items-start flex-col mb-5 ">
 						<div className="images relative w-full  aspect-square">
-							<div className="absolute top-28 left-10 h-[40%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150 z-10">
+							<div tabIndex={0} className="absolute top-28 left-10 h-[40%]  aspect-video grayscale focus:grayscale-0 hover:grayscale-0 transition-all ease duration-300 hover:scale-150 z-10">
 								<motion.div
 									initial={{ opacity: 0, scale: 0.5, x: 100 }}
 									whileInView={{
@@ -111,7 +112,7 @@ export default function Page() {
 									/>
 								</motion.div>
 							</div>
-							<div className="absolute top-10 right-28 h-[30%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
+							<div tabIndex={0} className="absolute top-10 right-28 h-[30%]  aspect-video grayscale focus:grayscale-0 hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
 								<motion.div
 									initial={{
 										opacity: 0,
@@ -135,7 +136,7 @@ export default function Page() {
 									/>
 								</motion.div>
 							</div>
-							<div className="absolute bottom-10 md:bottom-26 right-20 h-[35%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
+							<div tabIndex={0} className="absolute bottom-10 md:bottom-26 right-20 h-[35%]  aspect-video grayscale focus:grayscale-0 hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
 								<motion.div
 									initial={{
 										opacity: 0,
