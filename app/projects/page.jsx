@@ -192,7 +192,7 @@ The project includes secure authentication (JWT), dynamic car listings powered b
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://www.intervyou.me"
+									href="https://autoxplore.vercel.app/"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview
