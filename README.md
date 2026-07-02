@@ -1,5 +1,8 @@
 # Aniket Portfolio
 
+# Deployed Link
+**https://portfolio-anikett77.vercel.app/**
+
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=aniket-portfolio.visitor-badge)
 
 This is my portfolio website built with Next.js, featuring four primary sections: Home, About, Projects, and Contact. The site uses Framer Motion for animations, Fullpage.js for smooth transitions, and Tailwind CSS for styling. Project details are dynamically loaded from a JSON file.
@@ -42,10 +45,6 @@ A place where visitors can connect with me—either through direct info or a for
 - Project Archive: Displays all projects that aren’t shown on the main Projects page.
 - Project Details: Clicking a project opens its dedicated detail page.
 
-## Intelliticks Chat Widget
-
-Real-time chat support integrated using Intelliticks  
-https://app.intelliticks.com/
 
 ## Contributing
 
