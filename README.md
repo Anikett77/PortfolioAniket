@@ -13,7 +13,7 @@ This website represents my first major step into modern web development with Nex
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Features
+## Feature---------------------------
 
 - Smooth Animations: Clean scroll animations powered by Framer Motion.
 - Smooth Page Transitions: Enhanced transitions using Fullpage.js and Next.js prefetching.
@@ -25,28 +25,28 @@ This website represents my first major step into modern web development with Nex
 
 Follow this guide for Spotify API setup: https://leerob.io/blog/spotify-api-nextjs
 
-## Usage
+## Usage--------------------------- 
 
 The portfolio includes four main sections and two subpages:
 
-### Home
+### Home-----------------------------
 A clean introduction to who I am and what I do, with smooth animations and transitions.
 
-### About
+### About-----------------------------
 More details about my background, skills, interests, and journey in web development.
 
-### Projects
+### Projects-------------------------
 A showcase of my work with descriptions, tech stacks, and preview images.
 
-### Contact
+### Contact---------------------------
 A place where visitors can connect with me—either through direct info or a form.
 
-### Subpages
+### Subpages----------------------------
 - Project Archive: Displays all projects that aren’t shown on the main Projects page.
 - Project Details: Clicking a project opens its dedicated detail page.
 
 
-## Contributing
+## Contributing------------------------
 
 Contributions are always welcome!  
 Feel free to open issues or submit pull requests if you’d like to help improve the project.
