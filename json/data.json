@@ -152,7 +152,7 @@
       "desc": [
         "AutoXplore is a premium car rental and buying platform created to provide users with a seamless and modern vehicle booking experience. The website is built using React.js, Node.js, Express.js, MongoDB, and Tailwind CSS, ensuring fast performance, scalability, and a visually engaging UI.",
         "The platform offers a variety of features such as a fully responsive interface for browsing available cars, detailed car information with pricing and specifications, and secure authentication using JWT for users and admins. Users can explore different car categories, view detailed information, and instantly book or purchase cars. The admin panel allows efficient management of cars, bookings, and user data with real-time updates stored in MongoDB.",
-        "AutoXplore also includes interactive animations powered by Framer Motion, smooth navigation with React Router, and optimized image handling using Cloudinary. The project focuses on providing a premium user experience through dynamic car listings, advanced search and filtering options, and secure payment integration for future scalability."
+        "AutoXplore also includes interactive animations powered by Framer Motion, smooth navigation with React Router, and optimized image handling, The project focuses on providing a premium user experience through dynamic car listings, advanced search and filtering options, and secure payment integration for future scalability."
       ],
       "year": "2025",
       "preview": "https://autoxplore.vercel.app/",
